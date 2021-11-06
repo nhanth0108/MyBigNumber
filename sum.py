@@ -29,7 +29,14 @@ class  MyBigNumber:
 		print(SUM)
 		print(type(str(SUM)))
 		pass
+	
+	def MUL(self):
+		Mul = str_to_int(self.s1) * str_to_int(self.s2)
+		print(Mul)
+		print(type(str(Mul)))
+		pass
 
-SumBigNumber = MyBigNumber("12","45")
+BigNumber = MyBigNumber("10","45")
 
-SumBigNumber.SUM()
+BigNumber.SUM()
+BigNumber.MUL()
